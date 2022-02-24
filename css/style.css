@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FBBF04;
+}
+body h1{
+    font-size: 20px;
+    margin: 5rem 0 1rem 0;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+}
+table{
+    /* border: solid 1px #ecebeb;; */
+    background-color: #f7f0de;
+}
+
+thead{
+    border-bottom: solid 1px #ecebeb;
+    color: #fff;
+    font-size: 17px;
+    background-color: #171717;
+}
+thead > tr > th{
+    padding: 1rem!important;
+}
+tbody > tr > td{
+    border-bottom: solid 1px #ecebeb;
+    font-size: 15px;
+    padding: 1rem!important;
+}
+.btn{
+    padding: 0;
+    margin: 0!important;
+}
+.btn-edit{
+    background-color: #171717;
+    color: #FBBF04;
+}
+.btn-delete{
+    background-color: #FBBF04;
+    color: #171717;
+}
+.btn-profile{
+    background-color: #fae6aa;
+    color: #171717;
+}
+form{
+    background-color: #fff;
+    box-shadow: 5px 10px 7px rgba(0,0,0,0.2);
+    margin: 2rem;
+    padding: 2rem;
+    width: 50%;
+    border: 0;
+    border-radius: 4px;
+    /* border: 1px solid #d1d0d0; */
+}
+form button{
+    width: 70%;
+    border: 0;
+    padding: 10px;
+    background-color: #171717;
+    color: #FBBF04;
+    transition: all ease-in-out .4s;
+}
+form button:hover{
+    background-color: #FBBF04;
+    color: #171717;
+}
+input{
+    width: 70%;
+    margin: 1rem 0;
+    padding: 5px;
+    border: 1px solid #ecebeb;
+}
+input:focus{
+    outline: 0px;
+    background-color: #f7f0de;
+}
+.img-upload{
+  border: 0;
+}
+.msg{
+    color: #fff;
+    width: 30%!important;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #171717;
+    border: solid 2px #9c9c9c;
+    margin: 1rem auto;
+}
+.profile{
+    background-color: #fff;
+    margin: 2rem;
+    width: 500px;
+    padding: 2rem;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 10px 7px rgba(0,0,0,0.1);
+}
+.profile-section{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.profile-section img{
+    margin: 0 1rem;
+}
